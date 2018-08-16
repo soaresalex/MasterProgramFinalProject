@@ -1,0 +1,77 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Comfortaa:700|Roboto:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    background: #e6e7e8;
+}
+
+/* Menu module */
+.menu {
+    background: #007dc1;
+}
+.menu .col-sm-6 {
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+.menu .col-sm-6:first-child {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+}
+.menu .col-sm-6:nth-child(2) {
+    font-size: 13px;
+}
+.menu ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+.menu li {
+    float: left;
+    margin-right: 35px;
+    padding: 0;
+}
+.menu a {
+    color: #fff;
+}
+
+/* Header and content module */
+.header, .content {
+    background: #e6e7e8;
+    height: 100%;
+}
+.header .container, .content .container {
+    background: #fff;
+    border-right: 1px solid #bcbec0;
+    border-left: 1px solid #bcbec0;
+    height: 100%;
+}
+h1 {
+    text-align: center;
+    margin: 50px 0;
+    font-weight: 300;
+    font-size: 32px;
+}
+
+/* Table properties */
+table {
+    width: 80%;
+    border: none;
+    border-collapse: collapse;
+    color: #4d4d4f;
+    margin: 30px auto 100px auto;
+}
+tr td {
+    border-right: 0;
+    border-left: 0;
+    border-top: 1px solid #bcbec0;
+    border-bottom: 1px solid #bcbec0;
+    padding: 20px 0;
+    width: 50%;
+}

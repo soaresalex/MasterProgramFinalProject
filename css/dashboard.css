@@ -1,0 +1,129 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,900');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:700|Roboto:300,400,500,700');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #4d4d4f;
+}
+
+/* Menu module */
+.menu {
+    background: #007dc1;
+}
+.menu .col-sm-6 {
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+.menu .col-sm-6:first-child {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+}
+.menu .col-sm-6:nth-child(2) {
+    font-size: 13px;
+}
+.menu ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+.menu li {
+    float: left;
+    margin-right: 35px;
+    padding: 0;
+}
+.menu a {
+    color: #fff;
+}
+
+/* Header and content module */
+.header, .content {
+    background: #e6e7e8;
+}
+h1 {
+    text-align: center;
+    margin: 50px 0;
+    font-weight: 300;
+    font-size: 32px;
+}
+.col-sm-4 {
+    background: #fff;
+    padding: 15px;
+}
+.col-sm-4:first-child {
+    border-right: 10px solid #e6e7e8;
+}
+.col-sm-4:nth-child(2) {
+    border-left: 5px solid #e6e7e8;
+    border-right: 5px solid #e6e7e8;
+}
+.col-sm-4:nth-child(3) {
+    border-left: 10px solid #e6e7e8;
+}
+.content .container .col-sm-12 {
+    background: #fff;
+    margin: 30px 0;
+    padding: 15px;
+}
+h2, label {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+}
+h2 {
+    color: #007dc1;
+}
+label {
+    font-size: 11px;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border: none;
+    border-collapse: collapse;
+    color: #4d4d4f;
+    font-size: 11px;
+}
+
+th {
+    padding-bottom: 10px;
+    border: 0;
+}
+
+th a {
+    color: #007dc1;
+    font-weight: 400;
+    border-bottom: 1px solid #007dc1;
+}
+
+tr td {
+    border-right: 0;
+    border-left: 0;
+    border-top: 1px solid #bcbec0;
+    border-bottom: 1px solid #bcbec0;
+    padding: 10px 0;
+}
+tr td:first-child, tr th:first-child {
+    padding-left: 15px;
+    width: 15%;
+}
+tr td:nth-child(2), tr th:nth-child(2) {
+    width: 70%;
+}
+tr td:nth-child(3), tr th:nth-child(3) {
+    width: 15%;
+    text-align: center;
+}
+
+tr:last-child td {
+    border: 0;
+    width: 100%;
+}
+tr:last-child td table tr td {
+    width: auto;
+}

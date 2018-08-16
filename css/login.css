@@ -1,0 +1,120 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,900');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:300,400,700');
+
+html, body {
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, #007dc1, #00588a, #534f98, #a3238e); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #007dc1, #00588a, #534f98, #a3238e); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #007dc1, #00588a, #534f98, #a3238e); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #007dc1, #00588a, #534f98, #a3238e); /* Standard syntax */
+}
+
+.col-sm-5 {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    background: linear-gradient(to bottom right, rgba(0,125,193,0.6), rgba(0,88,138,0.6), rgba(83,79,152,0.6), rgba(163,35,142,0.6)), url('https://images.unsplash.com/photo-1498796702429-09a126a4dbff?auto=format&fit=crop&w=675&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D') top left no-repeat;
+    background-size: cover;
+}
+
+.col-sm-7 {
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    height: 100%;
+    padding: 40px 25px;
+    background: #fff;
+}
+
+.content .container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 32px;
+    text-align: center;
+    color: #007dc1;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+h1 a:hover, h1 a:visited {
+    text-decoration: none;
+    color: #007dc1;
+}
+
+/* Login box */
+.inner-box {
+    background: #fff;
+    height: 60%;
+    width: 60%;
+}
+
+.inner-box .col-sm-12:last-child {
+    font-size: 13px;
+    text-align: center;
+}
+
+input[type=text], input[type=password] {
+    display: block;
+    margin-bottom: 20px;
+    padding: 0;
+    width: 100%;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid #bcbec0;
+    font-size: 12px;
+}
+
+label {
+    padding: 0 10px;
+    margin: 0;
+    font-weight: 500;
+    font-size: 11px;
+}
+
+/* Hide the menu and header modules */
+.menu, .header {
+    display: none;
+}
+
+/* Styling the login button */
+input[type=submit] {
+    background: #007dc1;
+    border: 0;
+    border-radius: 25px;
+    width: 200px;
+    padding: 10px 0;
+    display: block;
+    position: relative;
+    transition: 0.5s ease all;
+    color: #fff;
+    margin: 10px auto 25px auto;
+}
+input[type=submit]:hover {
+    background: #a3238e;
+}
+
+.col-sm-7 .col-sm-12:nth-child(-n+3) {
+    position: relative;
+}
+
+.col-sm-7 .col-sm-12:nth-child(-n+3) span {
+    position: absolute;
+    left: 98%;
+    top: 26%;
+    background: rgba(255,255,255, 0.8);
+    border: 1.5px solid red;
+    padding: 5px;
+    font-weight: 500;
+    font-size: 11px;
+    color: red;
+    width: 150px;
+}

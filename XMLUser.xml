@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode title="Users" description="User Functions" url="">
+    <siteMapNode title="Dashboard" description="Displays Information" url="dashboard.aspx" />
+    <siteMapNode title="Dining In" description="Select meals from generic menu" url="dining-in.aspx" />
+    <siteMapNode title="Dining Out" description="Select meals from restaurant menu" url="dining-out.aspx" />
+    <siteMapNode title="Profile" description="View/Edit Profile" url="profile.aspx" />
+  </siteMapNode>
+</siteMap>

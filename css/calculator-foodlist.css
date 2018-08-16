@@ -1,0 +1,253 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,900');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:700|Roboto:300,400,500,700');
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* Header module */
+.calculating {
+    background: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0.4)), url(../img/calculate.jpg) top left no-repeat;
+    background-size: cover;
+}
+.restaurants .header {
+    background: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0.4)), url(../img/restaurants.jpg) top left no-repeat;
+    background-size: cover
+}
+.header {
+    height: 400px;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+.header .container .col-sm-12 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 300px;
+}
+.header .container .col-sm-12 div {
+    text-align: center;
+    width: 100%;
+}
+.header .col-sm-6 {
+    height: 50px;
+    padding: 0;
+}
+.header .col-sm-6:first-child {
+    font-family: 'Comfortaa', cursive;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+h1 {
+    font-size: 48px;
+    font-weight: 600;
+}
+.restaurants h1 {
+    font-size: 54px;
+}
+h4 {
+    font-weight: 300;
+}
+
+/* Navigation bar */
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 15px 0;
+    overflow: hidden;
+    float: right;
+}
+
+.nav li {
+    float: left;
+    margin-left: 20px;
+    font-size: 12px;
+    font-weight: 500;
+}
+.nav a, .header a {
+    color: #fff;
+    transition: all linear 0.2s;
+}
+.header a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+.nav a:hover {
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+.nav a:last-child:hover {
+    border: 0;
+}
+
+.nav input[type=submit] {
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 5px 10px;
+    transition: ease 1s;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.nav input[type=submit]:hover {
+    background: #ffa500;
+    color: #fff;
+    border: 1px solid #ffa500;
+}
+
+/* Content module */
+.content {
+    background: #e6e7e8;
+}
+.content .container {
+    background: #fff;
+}
+.restaurants label {
+    font-size: 13px;
+    font-weight: 100;
+    margin-top: 50px;
+}
+#calculator {
+    padding: 60px 0;
+    background: #fff;
+}
+
+#calculator .col-sm-12:first-child label {
+    display: block;
+    font-weight: 600;
+    font-size: 12px;
+    color: #4ca5d7;
+}
+
+#calculator .col-sm-12 {
+    padding-bottom: 20px;
+    color: #4d4d4f;
+}
+
+#calculator .col-sm-6 {
+    padding: 0 25px 0 0;
+}
+
+#calculator label {
+    font-weight: 600;
+    font-size: 12px;
+}
+
+#calculator .col-sm-12 .col-sm-6 .col-sm-6:first-child {
+    color: #4d4d4f;
+    text-align: right;
+}
+
+#calculator .container .col-sm-12:last-child {
+    text-align: center;
+}
+
+#calculator .col-sm-3 {
+    text-align: center;
+    margin-right: 2%;
+    width: 23%;
+    padding: 50px 0;
+    border: 1px solid #e6e7e8;
+    border-radius: 5px;
+    transition: all ease 1s;
+}
+
+#calculator .col-sm-3:hover {
+    border: 2px solid #007dc1;
+}
+
+#calculator .col-sm-3 span {
+    font-size: 24px;
+    font-weight: 300;
+    color: #007dc1;
+}
+
+#calculator input[type=text], #calculator select {
+    border: 1px solid #bcbec0;
+    width: 100%;
+    border-radius: 0;
+    padding: 10px;
+    font-size: 12px;
+}
+
+#calculator input[type=submit] {
+    background: #007dc1;
+    color: #fff;
+    border: 0;
+    padding: 10px 35px;
+    border-radius: 50px;
+    transition: all ease 1s;
+    margin-top: 25px;
+}
+
+#calculator input[type=submit]:hover {
+    background: #00588a;
+}
+
+/* Table list of food */
+table {
+    width: 100%;
+    border: none;
+    border-collapse: collapse;
+    color: #4d4d4f;
+    margin-top: 30px;
+}
+tr th {
+    padding: 10px;
+    border: 0;
+    background: #000;
+    color: #fff;
+}
+th a {
+    color: #fff;
+    font-weight: 400;
+    text-decoration: none;
+}
+tr td {
+    border-right: 0;
+    border-left: 0;
+    border-top: 1px solid #bcbec0;
+    border-bottom: 1px solid #bcbec0;
+    padding: 10px 0;
+}
+tr td:nth-child(2), tr th:nth-child(2) {
+    text-align: center;
+}
+
+tr:last-child td, .foodlist tr:last-child td {
+    border: 0;
+    width: 100%;
+}
+tr:last-child td table tr td, .foodlist tr:last-child td table tr td {
+    width: auto;
+    text-align: center;
+}
+.foodlist tr th:first-child, .foodlist tr td:first-child {
+    width: 50%;
+    padding-left: 20px;
+}
+.foodlist tr th:nth-child(2), .foodlist tr td:nth-child(2) {
+    text-align: left;
+    width: 25%;
+    padding-left: 0;
+}
+.foodlist tr th:nth-child(3), .foodlist tr td:nth-child(3) {
+    text-align: center;
+    width: 25%;
+    padding-left: 0;
+}
+
+/* Dropdowns */
+select {
+    width: 96%;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid #bcbec0;
+    font-size: 12px;
+}
